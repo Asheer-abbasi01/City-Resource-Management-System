@@ -1,8 +1,8 @@
-Smart City Resource Management System
+# Smart City Resource Management System
 A Java Swing-based GUI application developed as a semester project to simulate and manage city services such as transport units, power stations, and emergency services.
 The project demonstrates the use of Object-Oriented Programming (OOP) concepts like inheritance, polymorphism, interfaces, and composition.
 
-📌 Features
+# 📌 Features
 ✅ Manage transport units (e.g., buses)
 
 ⚡ Monitor power stations and simulate outages
@@ -22,7 +22,7 @@ Java Swing (for GUI)
 
 Serialization (for saving/loading data)
 
-🧠 OOP Concepts Applied
+# 🧠 OOP Concepts Applied
 Inheritance – Base class CityResource inherited by TransportUnit, PowerStation, and EmergencyService
 
 Interfaces – Alertable for emergency alerts, Reportable for usage reporting
@@ -30,25 +30,6 @@ Interfaces – Alertable for emergency alerts, Reportable for usage reporting
 Polymorphism – Handling resources through common parent/interface types
 
 Composition – Classes like CityZone and ResourceHub contain multiple resources
-
-📂 Project Structure
-
-City-Resource-Management-System/
-│
-├── smartcity/
-│   ├── CityResource.java           // Abstract base class
-│   ├── TransportUnit.java          // Transport resource
-│   ├── PowerStation.java           // Power resource
-│   ├── EmergencyService.java       // Emergency units
-│   ├── Consumer.java               // Power consumers
-│   ├── ResourceHub.java            // Grouping transport
-│   ├── CityZone.java               // Area-wise grouping
-│   ├── Alertable.java              // Interface for alerts
-│   ├── Reportable.java             // Interface for reports
-│   ├── CityRepository.java         // Data storage and serialization
-│   └── SmartCityGUI.java           // Main GUI application
-│
-└── README.md                       // This file
 
 🖥️ How to Run
 Install Java (Java 8+ recommended)
@@ -71,7 +52,7 @@ Resource status updates (e.g., "Responding", "Available")
 
 Usage and cost reports displayed in the GUI
 
-✅ Results
+# ✅ Results
 Total maintenance cost across resources
 
 Passenger and transport stats
@@ -80,17 +61,14 @@ Power usage and outage handling
 
 Emergency response efficiency
 
-Predictive maintenance using AI
-
-📚 Academic Info
+# 📚 Academic Info
 Course: Object-Oriented Programming
 
 Level: University Semester Project
 
 Language: Java (OOP + Swing)
 
-👨‍💻 Author
-Asheer Hidayat
-Computer Science Department, COMSATS University Islamabad
-Java Enthusiast | Tech Learner
+# 👨‍💻 Author
+Asheer Hidayat +
+Computer Science Department, COMSATS University Islamabad 
 
